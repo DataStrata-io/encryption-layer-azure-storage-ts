@@ -1,0 +1,36 @@
+{
+  "name": "encryption-layer-azure-storage-ts",
+  "version": "1.0.0",
+  "description": "Typescript example of client-side encryption on Azure Storage using DataStrata.io Encryption Layers",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataStrata-io/encryption-layer-azure-storage-ts.git"
+  },
+  "keywords": [
+    "client-side",
+    "encryption",
+    "encrypt",
+    "decrypt",
+    "azure",
+    "storage",
+    "account"
+  ],
+  "author": "DataStrata.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DataStrata-io/encryption-layer-azure-storage-ts/issues"
+  },
+  "homepage": "https://github.com/DataStrata-io/encryption-layer-azure-storage-ts#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@datastrata/azure-blob-encryption-layer": "^1.0.6"
+  }
+}
