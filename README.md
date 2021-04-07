@@ -13,9 +13,9 @@ You can download this example from:
 
 https://github.com/DataStrata-io/encryption-layer-aws-s3-ts.git
 
-1. Clone the repository: `git clone https://github.com/DataStrata-io/encryption-layer-aws-s3-ts.git`
+1. Clone the repository: `git clone https://github.com/DataStrata-io/encryption-layer-azure-storage-ts.git`
 
-2. Change into the directory: `cd encryption-layer-aws-s3-js`
+2. Change into the directory: `cd encryption-layer-azure-storage-ts`
 
 3. Install the dependency: `npm install`
 
@@ -23,7 +23,7 @@ https://github.com/DataStrata-io/encryption-layer-aws-s3-ts.git
 
 5. Replace `YOUR-AZURE-STORAGE-CONTAINER-NAME` with the name of the Container in your Storage Account.
 
-6. Run `ts-node index.ts`
+6. Run the index.js file by typing: `npx ts-node index.ts` (note that in some IDEs, just `ts-node index.ts` sufficient). You should see the contents of the uploaded file. If you used the `test-file.txt` in the repository, you will see:
 
 ### From scratch
 
