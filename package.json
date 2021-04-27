@@ -31,6 +31,6 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@datastrata/azure-blob-encryption-layer": "^1.0.9"
+    "@datastrata/azure-blob-encryption-layer": "^1.0.10"
   }
 }
