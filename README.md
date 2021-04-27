@@ -83,6 +83,7 @@ https://github.com/DataStrata-io/encryption-layer-aws-s3-ts.git
                 // Cleanup
                 await encryptionLayer.delete();
                 fs.unlinkSync(outputFilePath);
+                console.log('Deleted object in Encryption Layer and downloaded file.');
             } catch (e) {
                 console.log(e);
             }
