@@ -67,8 +67,7 @@ https://github.com/DataStrata-io/encryption-layer-aws-s3-ts.git
         
                 const encryptionLayer = new AzureEncryptionLayer(
                     'YOUR-REST-CREDENTIAL-CLIENT-ID',
-                    'YOUR-REST-CREDENTIAL-SECRET',
-                    'us-east-1');
+                    'YOUR-REST-CREDENTIAL-SECRET');
         
                 encryptionLayer.setContainerClient('YOUR-AZURE-STORAGE-CONTAINER-NAME');
                 encryptionLayer.setBlockBlobClient(testFileName);
